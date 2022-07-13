@@ -1,4 +1,4 @@
-### ESP32 board
+# ESP32 board
 * To install the ESP32 board in your Arduino IDE, follow these next instructions
 ```
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
@@ -7,9 +7,9 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 * Enter the following into the “Additional Board Manager URLs” field
 * Open the Boards Manager. Go to Tools > Board > Boards Manager
 * Search for ESP32 and press install button for the “ESP32 by Espressif Systems“
-## ESP32 Web Server
+### ESP32 Web Server
 Start by building the circuit. Connect two LEDs to the ESP32 as shown in the following schematic diagram – one LED connected to GPIO 26, and the other to GPIO 27.
-# ESP32 Web Server Code
+## ESP32 Web Server Code
 The code that creates the ESP32 web server. Copy the following code to your Arduino IDE, but don’t upload it yet. You need to make some changes to make it work for you.
 ```
 /*********
@@ -168,14 +168,14 @@ void loop(){
   }
 }
 ```
-# Setting Your Network Credentials
+## Setting Your Network Credentials
 modify the following lines with your network credentials: SSID and password. The code is well commented on where you should make the changes.
 ```
 // Replace with your network credentials
 const char* ssid     = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 ```
-# Uploading the Code
+## Uploading the Code
 upload the code and and the web server will work straight away. Follow the next steps to upload code to the ESP32:
 1) Plug your ESP32 board in your computer;
 2) In the Arduino IDE select your board in Tools > Board (in our case we’re using the ESP32 DEVKIT DOIT board);
