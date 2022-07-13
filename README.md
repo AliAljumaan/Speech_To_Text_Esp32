@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 * Enter the following into the “Additional Board Manager URLs” field
 * Open the Boards Manager. Go to Tools > Board > Boards Manager
 * Search for ESP32 and press install button for the “ESP32 by Espressif Systems“
-### ESP32 Web Server
+## ESP32 Web Server
 Start by building the circuit. Connect two LEDs to the ESP32 as shown in the following schematic diagram – one LED connected to GPIO 26, and the other to GPIO 27.
 ## ESP32 Web Server Code
 The code that creates the ESP32 web server. Copy the following code to your Arduino IDE, but don’t upload it yet. You need to make some changes to make it work for you.
