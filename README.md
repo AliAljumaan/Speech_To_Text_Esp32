@@ -1,4 +1,4 @@
-## Speach_To_Text_Esp32
+### ESP32 board
 * To install the ESP32 board in your Arduino IDE, follow these next instructions
 ```
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
